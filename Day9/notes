@@ -1,0 +1,27 @@
+data structure - IV
+ 
+dictionary advanced:
+=>keys must be hashable(str,int,tuple)
+ 
+membership operators in dictionary =>in , not in 
+=> for both keys and values it works
+example:
+print('x' in d) 
+print(10 in d.values())
+ 
+ 
+methods:
+ 
+1)d_name.clear()
+2)d_name.items() 
+3)d_name.keys()  => keys()=> dynamic view object 
+4)d_name.values()
+5)update() =>
+	1)d1.update(d2)
+	2)d1.update(occupation="Engineer")
+6)setdefault()
+	=>d1.detdefault(key,default)
+ 
+standalone function:
+1)len(d_name)
+ 

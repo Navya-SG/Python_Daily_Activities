@@ -1,0 +1,13 @@
+SET
+set supports - int,float,str,tuple,None,complex,bool
+unhashable - list,dict,set
+
+is it possible to print in same order everytime?
+s={5,2,3,0,5}
+print(s)
+
+| -> bitwise or operator (to combine)
+
+and & -> not equal
+and (check and return)
+& (bitwise operator)

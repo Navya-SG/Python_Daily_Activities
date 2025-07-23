@@ -50,11 +50,20 @@ updated_fruit_prices = {''.join(sorted("elppa")): fruit_prices["elppa"],
                         ''.join(sorted("egnaro")): fruit_prices["egnaro"]}
 
 print(updated_fruit_prices.get(fruit_name, "not found"))
-'''fruit_prices = {"elppa": 100,
-                "ananab": 60, 
-                "egnaro": 80}  
-   sorted_fruits={"apple":fruit_prices.get"elppa",
-                
-fruit_name = "".join(sorted(input("Enter fruit name: "))) 
-sorted_keys = "".join, map(sorted, fruit_prices.keys())
-print(fruit_name in sorted_keys and fruit_prices.get(fruit_name,"None"))''' 
+
+#final solution
+fruit_prices = {
+    "elppa": 100,
+    "ananab": 60,
+    "egnaro": 80,}
+fruit_name = ''.join(sorted(input("Enter fruit name: "))) # Get input and sort
+sorted_keys = dict(zip(list(map("".join, map(sorted, fruit_prices.keys()))),fruit_prices.values())) #extract keys,sort and store in new dict
+print(sorted_keys.get(fruit_name, "Fruit not found")) #print the price
+
+#FINAL SOLUTION PRO
+fruit_prices = {
+    "elppa": 100,
+    "ananab": 60,
+    "egnaro": 80,}
+sorted_dict = dict(zip(list(map("".join, map(sorted, fruit_prices.keys()))),fruit_prices.values())) #extract keys,sort and store in new dict
+print(sorted_dict.get(''.join(sorted(input("Enter fruit name: "))), "Fruit not found")) # get input and print the price

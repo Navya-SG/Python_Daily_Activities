@@ -1,24 +1,6 @@
-#sol4
-fruit_prices = {"elppa": 100,
-                "ananab": 60, 
-                "egnaro": 80}  
+#ones/twos complement, binary operators
 
-sorted_fruits = {"apple":fruit_prices.get("elppa"),
-                 "banana":fruit_prices.get("ananab"),
-                 "orange":fruit_prices.get("egnaro")}
-
-fruit_name = input("Enter fruit name: ") 
-print(sorted_fruits.get(fruit_name,"None"))
-
-#sol5
-fruit_prices = {"elppa": 100, 
-                "ananab": 80, 
-                "egnaro": 60}
-
-fruit_name = ''.join(sorted(input("Enter fruit name:")))
-
-updated_fruit_prices = {''.join(sorted("elppa")): fruit_prices["elppa"],
-                        ''.join(sorted("ananab")): fruit_prices["ananab"],
-                        ''.join(sorted("egnaro")): fruit_prices["egnaro"]}
-
-print(updated_fruit_prices.get(fruit_name, "not found"))
+list1=[[1,2,3,4],[2,3,4,5],[3,4,5,6],[4,5,6,7]]
+set1,set2,set3,set4=set(list1[0]),set(list1[1]),set(list1[2]),set(list1[3])
+common = list(set1.intersection(set2).intersection(set3).intersection(set4))
+print(common)
