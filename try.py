@@ -1,6 +1,19 @@
-#ones/twos complement, binary operators
+# list=[[1,2,3,4],[2,3,4,5],[3,4,5,6],[4,5,6,7]] #existing list
+# intersection = list(set.intersection(*map(set, list)))
+# print(intersection)
 
-list1=[[1,2,3,4],[2,3,4,5],[3,4,5,6],[4,5,6,7]]
-set1,set2,set3,set4=set(list1[0]),set(list1[1]),set(list1[2]),set(list1[3])
-common = list(set1.intersection(set2).intersection(set3).intersection(set4))
-print(common)
+# a={1,2,3}
+# b={1,2,3,4,5}
+# c={1,2}
+# # print(a.issubset(b)) #True
+# # print(c<=a) #True
+# # print(a<b)
+# # print(c<a)
+# # print(c<=a)
+# x={}
+
+a={{1,2,3}:"hi"}
+e={frozenset([1,2,3]):"hi"}
+f={{1,2},{3,4}}
+g={frozenset([1,2]),frozenset([3,4])}
+print(e)

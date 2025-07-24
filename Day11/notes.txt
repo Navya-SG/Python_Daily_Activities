@@ -1,0 +1,30 @@
+kernel -  kernel is the core(hub) of unix
+
+unix shell - command-line interface(CLI) between 
+
+In unix everything is a file or process - core design principle of unix
+
+process - running/executing program
+	  each process has unique ID-PID(process identifier)
+	  started by user or system itself
+
+what counts as file in unix?
+file -  collection of data(text file,binary file,directory)
+
+directories are files ? - yes
+
+read/view - commands(ls,cd,etc..)
+
+commands 
+ls -> list contents of a directories
+la -a -> find hidden files
+mkdir -> make a directory
+cd/cd~ -> change to home directory
+cd director_name -> change to directory_name
+cd . -> current directory
+cd .. -> change to parents directory (to move back to parent foldre)
+touch -> create new,empty files(touch filename.txt,filename.txt)
+echo -> print
+pwd -> display the path of current directory
+cp source_file target_file -> copy a file and duplicated in same folder
+mv -> move or rename
