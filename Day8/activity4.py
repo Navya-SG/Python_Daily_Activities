@@ -67,3 +67,15 @@ fruit_prices = {
     "egnaro": 80,}
 sorted_dict = dict(zip(list(map("".join, map(sorted, fruit_prices.keys()))),fruit_prices.values())) #extract keys,sort and store in new dict
 print(sorted_dict.get(''.join(sorted(input("Enter fruit name: "))), "Fruit not found")) # get input and print the price
+
+#
+fruit_prices = {
+    "elppa": 100,
+    "ananab": 60,
+    "egnaro": 80,
+}
+sorted_dict = dict(zip(list(map("".join, map(sorted, fruit_prices.keys()))),fruit_prices.values()))
+user_input = input("Enter fruit name: ")
+sorted_input = "".join(sorted(user_input))
+# Use membership operator and logical expression
+print((sorted_input in sorted_dict and sorted_dict[sorted_input]) or "Fruit not found")
