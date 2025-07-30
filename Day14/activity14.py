@@ -1,5 +1,5 @@
 val=input()
-if bool(val):
-	print("Truthy")
-elif bool(val) == False:
+if val == "0" or val == "False":
 	print("Falsy")
+else:
+	print("Truthy")
