@@ -50,15 +50,14 @@ data=["",[],0,None]
 print(all(data),any(data)) #False False
 
 #
-
-
-#
-
-
-#
-
+x=0
+if x == x == x == x == x:
+    print("Python")
 
 #
-
+if [] == False:
+    print("A")
+if not []:
+    print("B") #B
 
 

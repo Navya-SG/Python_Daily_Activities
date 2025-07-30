@@ -1,1 +1,3 @@
+#
 int(input())==42 and print("Magic")
+
