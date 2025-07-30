@@ -1,7 +1,5 @@
-bln1=input()
-bln2=input()
-bln3=input()
-#al = int(bool(bln1))+int(bool(bln2))+int(bool(bln3)) 
-if bln1+bln2+bln3 == 1:
-	print("Exactly one") 
+boolean=input().split(" ")
+if boolean.count("True") == 1:
+    print("Exactly one") 
+# if bln1+bln2+bln3 == 1:
 #al!=1 and print("None")
