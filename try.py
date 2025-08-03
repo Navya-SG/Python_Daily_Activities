@@ -16,9 +16,3 @@ while low <= high:
 else:
     print("Not found")
 '''
-
-values = [10, 25, 67, 35, 42]
-values.sort()
-search_val = 25
-mid = values[(len(values))//2]
-print(mid)
