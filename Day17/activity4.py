@@ -17,16 +17,12 @@ l_name = input("Enter last name: ")
 pwd = input("Enter password: ")
 
 def pwd_valid(u_name, f_name, l_name, pwd):
-    if pwd == u_name:
-        return "Password should not be the same as username"
-    if pwd == f_name or pwd == l_name:
-        return "Password should not be same as first or last name"
-    if len(pwd) < 10:
-        return "Password must be at least 10 characters long"
+    if pwd == u_name or pwd == f_name or pwd == l_name:
+        return "Password should not be the same as username or firstname or lastname"
+    if len(pwd) < 10 or pwd.lower() == pwd or pwd.upper() == pwd:
+        return "Password must be at least 10 characters long with atleast one upper and lower case"
     if not pwd.isalnum():
         return "Password must be alphanumeric"
-    if pwd.lower() == pwd or pwd.upper() == pwd:
-        return "Password must include both uppercase and lowercase letters"
     return "Password is valid"
 
 print(pwd_valid(u_name, f_name, l_name, pwd))

@@ -24,5 +24,3 @@ gen = process_numbers(nums)
 for msg in gen:
     print(msg)
 
-
-prime numbers

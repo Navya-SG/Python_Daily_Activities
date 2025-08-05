@@ -7,6 +7,7 @@ for i in range(len(val)):
     val[i],val[min]=val[min],val[i]
 print("sorted list:",val)
 
+#
 
 
 

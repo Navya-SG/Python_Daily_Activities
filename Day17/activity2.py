@@ -29,6 +29,6 @@ def fun(i):
     for j in lst:
     	if j==num and j%num==0:
             res.append(j)
-print(res)
+
 
 	
