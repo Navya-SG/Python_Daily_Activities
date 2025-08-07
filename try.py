@@ -36,4 +36,3 @@ Many businesses use cloud services like SharePoint to store important data.
 This breach shows that even big platforms like Microsoft can have security weaknesses.
 It raised concerns about how safe cloud-based tools really are.
 '''
-
