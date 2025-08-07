@@ -24,15 +24,24 @@ The company is now valued at $1.5 billion, reflecting Python’s central role in
 🔹 In 2025, they received $150 million from investors. This money will help them make better tools and software for AI (Artificial Intelligence).
 🔹 Because of this investment, Anaconda is now worth $1.5 billion — showing how important Python has become in big companies that use AI and data.
 
-🔐 What Happened?
-Hackers found a security flaw in Microsoft’s SharePoint servers.
-SharePoint is a tool used by many companies to share files and collaborate online.
-Using this flaw, attackers were able to break into systems and steal data.
-🏢 Who Was Affected?
-Over 100 companies were impacted.
-These companies may have lost sensitive information like emails, documents, or customer data.
-☁️ Why Is It Serious?
-Many businesses use cloud services like SharePoint to store important data.
-This breach shows that even big platforms like Microsoft can have security weaknesses.
-It raised concerns about how safe cloud-based tools really are.
-'''
+Here’s a simple explanation of how the new AI tool from UC San Diego can detect skin cancer using just 40 dermoscopy images:
+
+🧠 What’s the Problem?
+Normally, to train an AI to detect skin cancer, doctors need thousands of labeled images. Each image must be carefully marked to show which parts are healthy and which parts might be cancerous. This takes a lot of time, money, and expert effort.
+
+💡 What Did UC San Diego Do?
+Researchers created an AI system called GenSeg that can learn from just a few examples — as few as 40 images 1 2 3.
+
+🔍 How Does It Work?
+Start with 40 expert-labeled images of skin lesions (from dermoscopy scans).
+The AI uses those to generate synthetic images — fake but realistic examples.
+It trains itself using both the real and synthetic images.
+A feedback loop helps the AI improve by adjusting the synthetic images based on how well it’s learning.
+This way, the AI becomes smart enough to spot skin cancer even with very little data.
+
+🏥 Why Is This Important?
+Faster diagnosis: Doctors can get help from AI without waiting for huge datasets.
+Cheaper: Clinics don’t need expensive data collection.
+More accessible: Even small hospitals or rural clinics can use this technology.
+Early detection: Catching skin cancer early can save lives.'''
+
