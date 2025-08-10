@@ -45,3 +45,27 @@ Cheaper: Clinics don’t need expensive data collection.
 More accessible: Even small hospitals or rural clinics can use this technology.
 Early detection: Catching skin cancer early can save lives.'''
 
+'''
+pdfed
+if where
+loc iloc'''
+
+'''
+tensor flow deepkiper 
+coursera
+angio
+depplearning.ai
+'''
+
+'''
+zip file - several json
+consolidate into single dataframe or multiple dataframe
+outcome - csv file(writing)
+
+zip
+json parsing
+pandas
+output - csv writing
+use as notebook
+
+additionally - sorting/searching'''
