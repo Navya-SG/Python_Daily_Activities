@@ -1,0 +1,14 @@
+[
+  {"name": "Navya", "role": "Engineer", "mark": 50.0,"gender":"M"},
+  {"name": "Gokila", "role": "Teacher", "mark": 5.0,"gender":"M"},
+  {"name": "Arjun", "role": "Data Scientist", "mark": 88.5,"gender":"M"},
+  {"name": "Meera", "mark": 72.0,"gender":"F"},
+  {"name": "Ravi", "role": "Manager", "mark": 65.0,"gender":"M"},
+  {"name": "Sneha", "role": "Engineer", "mark": 91.0,"gender":"F"},
+  {"name": "Kiran", "role": "Teacher", "mark": 45.0,"gender":"M"},
+  {"name": "Divya", "role": "HR", "mark": 78.0,"gender":"M"},
+  {"name": "Amit", "role": "Developer","gender":"F"},
+  {"name": "Priya", "role": "Engineer", "mark": 69.5,"gender":"F"},
+  {"name": "Vikram", "role": "Analyst", "mark": 55.0,"gender":"M"},
+  {"role": "Consultant", "mark": 73.0,"gender":"F"}
+]

@@ -70,3 +70,10 @@ arr1 = np.array([1,2,3])
 arr2 = np.array([4,5,6]) 
 print(arr1+arr2) #[5 7 9]
 print(arr1*2) #[2 4 6]
+
+#.apply with pandas for column wise
+import pandas as pd
+import numpy as np
+df=pd.read_json("data.json")#pandas
+df[["mark"]].apply([np.mean,np.std]) #[[]] #pandas+numpy
+print(df["mark"])#pandas
