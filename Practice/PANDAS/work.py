@@ -1,11 +1,23 @@
-#join DataFrames (DF1.join(DF2))
+#.groupby() [2] + .map() or .apply()
 import pandas as pd
 df=pd.read_json("data.json")
-df1 = df.set_index('name')
-df2 = pd.DataFrame({
-    'grade': ['A', 'B'],
-}, index=['Navya', 'Gokila'])
-joined = df1.join(df2)
-print(joined) #set col as index and select row to that col as index to join values
-
+data = df.groupby(["role","gender"])["mark"].mean() #group by role and find mean of mark of grouped role
+print(data)
+df["data"]=df["role"].map(df.groupby("role")["mark"].mean()) #based on role assign the mean 
+#df["data"] = df.apply(lambda row: data.get((row["role"], row["gender"])), axis=1)
+print(df)
+'''
 #FA2025_NAVYA
+JSON,CSV,ZIP HANDLING
+multiple json files to single
+
+create list
+get user input
+
+search/sort
+binary
+linear
+bubble sort
+seletion sort
+qucik sort
+insertion sort'''

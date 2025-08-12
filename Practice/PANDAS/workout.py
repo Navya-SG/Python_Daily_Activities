@@ -452,7 +452,7 @@ df=pd.read_json("data.json")
 df.fillna(method='bfill',inplace=True) #inplace=True: Tells pandas to modify the original DataFrame directly, without returning a new one.
 print(df)#the null space is filled with last non-null value'
 
-# .rename(column={" ":" "}) -> rename column
+# .rename(columns={" ":" "}) -> rename column
 import pandas as pd
 df=pd.read_json("data.json")
 df_renamed=df.rename(columns={"mark":"score"})
@@ -544,3 +544,16 @@ df=pd.read_json("data.json")
 df1 = df.set_index('name')
 reset=df1.reset_index()
 print(df)
+
+#drop duplicates
+import pandas as pd
+import json
+df1 = pd.read_json("file1.json")
+df2 = pd.read_json("file2.json")
+df3 = pd.read_json("file3.json")
+combined_df = pd.concat([df1, df2, df3], ignore_index=True)
+clean_df = combined_df.drop_duplicates()
+print(clean_df)
+
+# drop duplicates of columns
+df.drop_duplicates(subset=['name'])

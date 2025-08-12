@@ -14,15 +14,14 @@ dj=dj.groupby("Month").first()
 #dj = dj.drop_duplicates(subset='Month', keep='first')
 print(dj)
 
-11-2
-11.30 - 2.30
+map
+reduce
+filter
+os module
 
-
-class Car:
-    brand = "Toyota"  
-    def __init__(self,number_plate):
-        self.number_plate = number_plate  
-car1=Car("XXXXX")
-car2=Car("YYYYY")
-print(car1.brand,car1.number_plate) 
-print(car2.brand,car2.number_plate)
+2 or 3 zipfiles
+each zipfile has 1000s of files  - use function
+find extension
+cluster and make one
+same code again again not expected
+use func

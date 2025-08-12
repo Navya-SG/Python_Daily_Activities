@@ -1,0 +1,35 @@
+Objective:
+The primary objective of this assignment is to process and analyze airline flight data from two distinct sources (2023 CSV and 2024 JSON) to perform data cleaning, integration, performance analysis against targets, and generation of specific output files, subsequently packaged into a compressed archive.
+Data Sources:
+old_airline_data_2023.csv (CSV format)
+new_airline_data_2024.json (JSON format)
+Task 1: Data Loading & Cleaning
+Loading: Load both datasets into pandas DataFrames, ensuring appropriate data types are assigned to each column.
+2024 JSON Dataset Cleaning:
+Identify and log all missing (NaN/null) values.
+For numerical columns (flights_operated, passengers_carried, target_passengers), impute missing values with the mean calculated only from the non-null entries within the respective columns of the 2024 data.
+Rows where all three numerical columns (flights_operated, passengers_carried, target_passengers) are simultaneously missing must be dropped, with justification recorded.
+Validate the month column to ensure entries represent valid calendar months (January to December). Rows containing invalid month names must be dropped.
+Standardization:
+Column headers must be converted to lowercase, with spaces replaced by underscores (e.g., flights_operated).
+Month values must be uniformly capitalized (e.g., "Jan", "Feb").
+Duplicate Handling: Identify and remove duplicate entries based on the month column in the new data, retaining the first occurrence.
+Task 2: Data Merging
+Concatenation: Append the cleaned 2024 dataset to the end of the 2023 dataset to form a single, combined DataFrame.
+Year Column: Introduce a new column, year, to indicate the origin year (2023 or 2024) for each row.
+Month Consistency: Ensure all month values in the combined DataFrame are consistent and correspond exactly to one of the 12 calendar months (Jan to Dec).
+Sorting: Sort the combined DataFrame first by year and then chronologically by month.
+Task 3: Data Analysis
+Performance Metric: Create a new column, pct_diff_target, calculating the percentage difference between passengers_carried and target_passengers using the formula:pct_diff_target = ((passengers_carried - target_passengers) / target_passengers) * 100
+Target Non-Achievement: Identify and list all months (including year) where pct_diff_target is less than 0, indicating that passenger targets were not achieved.
+Annual Summaries: For both 2023 and 2024, compute:
+Total passengers carried
+Total flights operated
+Average pct_diff_target across all months.
+Extreme Performance: Determine the month and year exhibiting the maximum positive and maximum negative pct_diff_target, representing the best and worst performance relative to the target, respectively.
+Task 4: Data Output and Zipping
+Output Files:
+Save the combined, cleaned, and merged DataFrame as combined_airline_data.csv.
+Save the identified months where targets were not achieved (from Task 3b) as target_not_achieved.csv, including year, month, and pct_diff_target columns.
+Save the yearly summary statistics (from Task 3c and 3d) as yearly_summary.json.
+Archiving: Create a zip archive named airline_analysis_outputs.zip containing combined_airline_data.csv, target_not_achieved.csv, and yearly_summary.json.
