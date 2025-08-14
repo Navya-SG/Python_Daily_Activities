@@ -42,7 +42,3 @@
 #         if avg >= 90:
 #             print(students["name"])
 
-
-with open("giphy.jpg","rb") as file:
-    data = file.read()
-    print(data)

@@ -1,0 +1,194 @@
+{
+  "stores": [
+    {
+      "name": "Store 1",
+      "fruits": {
+        "apple": {"initial_stock": 50, "stock": 10, "cost_price": 20, "selling_price": 40},
+        "banana": {"initial_stock": 100, "stock": 15, "cost_price": 5, "selling_price": 10}
+      },
+      "groceries": {
+        "rice": {"initial_stock": 200, "stock": 30, "cost_price": 30, "selling_price": 50},
+        "wheat": {"initial_stock": 150, "stock": 25, "cost_price": 25, "selling_price": 45}
+      },
+      "vegetables": {
+        "carrot": {"initial_stock": 80, "stock": 8, "cost_price": 10, "selling_price": 20},
+        "potato": {"initial_stock": 100, "stock": 40, "cost_price": 12, "selling_price": 25}
+      },
+      "dairy": {
+        "milk": {"initial_stock": 60, "stock": 5, "cost_price": 20, "selling_price": 30},
+        "cheese": {"initial_stock": 30, "stock": 12, "cost_price": 50, "selling_price": 80}
+      }
+    },
+    {
+      "name": "Store 2",
+      "fruits": {
+        "apple": {"initial_stock": 40, "stock": 9, "cost_price": 20, "selling_price": 40},
+        "banana": {"initial_stock": 120, "stock": 12, "cost_price": 5, "selling_price": 10}
+      },
+      "groceries": {
+        "rice": {"initial_stock": 180, "stock": 28, "cost_price": 30, "selling_price": 50},
+        "wheat": {"initial_stock": 130, "stock": 15, "cost_price": 25, "selling_price": 45}
+      },
+      "vegetables": {
+        "carrot": {"initial_stock": 70, "stock": 10, "cost_price": 10, "selling_price": 20},
+        "potato": {"initial_stock": 90, "stock": 35, "cost_price": 12, "selling_price": 25}
+      },
+      "dairy": {
+        "milk": {"initial_stock": 50, "stock": 3, "cost_price": 20, "selling_price": 30},
+        "cheese": {"initial_stock": 25, "stock": 14, "cost_price": 50, "selling_price": 80}
+      }
+    },
+    {
+      "name": "Store 3",
+      "fruits": {
+        "apple": {"initial_stock": 60, "stock": 7, "cost_price": 20, "selling_price": 40},
+        "banana": {"initial_stock": 110, "stock": 20, "cost_price": 5, "selling_price": 10}
+      },
+      "groceries": {
+        "rice": {"initial_stock": 190, "stock": 40, "cost_price": 30, "selling_price": 50},
+        "wheat": {"initial_stock": 140, "stock": 12, "cost_price": 25, "selling_price": 45}
+      },
+      "vegetables": {
+        "carrot": {"initial_stock": 60, "stock": 9, "cost_price": 10, "selling_price": 20},
+        "potato": {"initial_stock": 95, "stock": 30, "cost_price": 12, "selling_price": 25}
+      },
+      "dairy": {
+        "milk": {"initial_stock": 55, "stock": 6, "cost_price": 20, "selling_price": 30},
+        "cheese": {"initial_stock": 28, "stock": 11, "cost_price": 50, "selling_price": 80}
+      }
+    },
+    {
+      "name": "Store 4",
+      "fruits": {
+        "apple": {"initial_stock": 55, "stock": 8, "cost_price": 20, "selling_price": 40},
+        "banana": {"initial_stock": 105, "stock": 10, "cost_price": 5, "selling_price": 10}
+      },
+      "groceries": {
+        "rice": {"initial_stock": 210, "stock": 35, "cost_price": 30, "selling_price": 50},
+        "wheat": {"initial_stock": 145, "stock": 20, "cost_price": 25, "selling_price": 45}
+      },
+      "vegetables": {
+        "carrot": {"initial_stock": 75, "stock": 5, "cost_price": 10, "selling_price": 20},
+        "potato": {"initial_stock": 105, "stock": 25, "cost_price": 12, "selling_price": 25}
+      },
+      "dairy": {
+        "milk": {"initial_stock": 65, "stock": 2, "cost_price": 20, "selling_price": 30},
+        "cheese": {"initial_stock": 35, "stock": 13, "cost_price": 50, "selling_price": 80}
+      }
+    },
+    {
+      "name": "Store 5",
+      "fruits": {
+        "apple": {"initial_stock": 58, "stock": 11, "cost_price": 20, "selling_price": 40},
+        "banana": {"initial_stock": 95, "stock": 14, "cost_price": 5, "selling_price": 10}
+      },
+      "groceries": {
+        "rice": {"initial_stock": 220, "stock": 45, "cost_price": 30, "selling_price": 50},
+        "wheat": {"initial_stock": 138, "stock": 17, "cost_price": 25, "selling_price": 45}
+      },
+      "vegetables": {
+        "carrot": {"initial_stock": 85, "stock": 6, "cost_price": 10, "selling_price": 20},
+        "potato": {"initial_stock": 98, "stock": 22, "cost_price": 12, "selling_price": 25}
+      },
+      "dairy": {
+        "milk": {"initial_stock": 62, "stock": 4, "cost_price": 20, "selling_price": 30},
+        "cheese": {"initial_stock": 33, "stock": 10, "cost_price": 50, "selling_price": 80}
+      }
+    },
+    {
+      "name": "Store 6",
+      "fruits": {
+        "apple": {"initial_stock": 65, "stock": 6, "cost_price": 20, "selling_price": 40},
+        "banana": {"initial_stock": 98, "stock": 16, "cost_price": 5, "selling_price": 10}
+      },
+      "groceries": {
+        "rice": {"initial_stock": 215, "stock": 25, "cost_price": 30, "selling_price": 50},
+        "wheat": {"initial_stock": 142, "stock": 19, "cost_price": 25, "selling_price": 45}
+      },
+      "vegetables": {
+        "carrot": {"initial_stock": 90, "stock": 7, "cost_price": 10, "selling_price": 20},
+        "potato": {"initial_stock": 100, "stock": 20, "cost_price": 12, "selling_price": 25}
+      },
+      "dairy": {
+        "milk": {"initial_stock": 64, "stock": 5, "cost_price": 20, "selling_price": 30},
+        "cheese": {"initial_stock": 34, "stock": 12, "cost_price": 50, "selling_price": 80}
+      }
+    },
+    {
+      "name": "Store 7",
+      "fruits": {
+        "apple": {"initial_stock": 52, "stock": 10, "cost_price": 20, "selling_price": 40},
+        "banana": {"initial_stock": 102, "stock": 18, "cost_price": 5, "selling_price": 10}
+      },
+      "groceries": {
+        "rice": {"initial_stock": 225, "stock": 20, "cost_price": 30, "selling_price": 50},
+        "wheat": {"initial_stock": 135, "stock": 18, "cost_price": 25, "selling_price": 45}
+      },
+      "vegetables": {
+        "carrot": {"initial_stock": 95, "stock": 6, "cost_price": 10, "selling_price": 20},
+        "potato": {"initial_stock": 92, "stock": 21, "cost_price": 12, "selling_price": 25}
+      },
+      "dairy": {
+        "milk": {"initial_stock": 63, "stock": 3, "cost_price": 20, "selling_price": 30},
+        "cheese": {"initial_stock": 36, "stock": 11, "cost_price": 50, "selling_price": 80}
+      }
+    },
+    {
+      "name": "Store 8",
+      "fruits": {
+        "apple": {"initial_stock": 48, "stock": 12, "cost_price": 20, "selling_price": 40},
+        "banana": {"initial_stock": 100, "stock": 17, "cost_price": 5, "selling_price": 10}
+      },
+      "groceries": {
+        "rice": {"initial_stock": 205, "stock": 33, "cost_price": 30, "selling_price": 50},
+        "wheat": {"initial_stock": 137, "stock": 22, "cost_price": 25, "selling_price": 45}
+      },
+      "vegetables": {
+        "carrot": {"initial_stock": 82, "stock": 5, "cost_price": 10, "selling_price": 20},
+        "potato": {"initial_stock": 96, "stock": 28, "cost_price": 12, "selling_price": 25}
+      },
+      "dairy": {
+        "milk": {"initial_stock": 66, "stock": 6, "cost_price": 20, "selling_price": 30},
+        "cheese": {"initial_stock": 31, "stock": 15, "cost_price": 50, "selling_price": 80}
+      }
+    },
+    {
+      "name": "Store 9",
+      "fruits": {
+        "apple": {"initial_stock": 62, "stock": 9, "cost_price": 20, "selling_price": 40},
+        "banana": {"initial_stock": 108, "stock": 11, "cost_price": 5, "selling_price": 10}
+      },
+      "groceries": {
+        "rice": {"initial_stock": 212, "stock": 27, "cost_price": 30, "selling_price": 50},
+        "wheat": {"initial_stock": 132, "stock": 19, "cost_price": 25, "selling_price": 45}
+      },
+      "vegetables": {
+        "carrot": {"initial_stock": 88, "stock": 8, "cost_price": 10, "selling_price": 20},
+        "potato": {"initial_stock": 102, "stock": 26, "cost_price": 12, "selling_price": 25}
+      },
+      "dairy": {
+        "milk": {"initial_stock": 67, "stock": 4, "cost_price": 20, "selling_price": 30},
+        "cheese": {"initial_stock": 30, "stock": 13, "cost_price": 50, "selling_price": 80}
+      }
+    },
+    {
+      "name": "Store 10",
+      "fruits": {
+        "apple": {"initial_stock": 54, "stock": 10, "cost_price": 20, "selling_price": 40},
+        "banana": {"initial_stock": 106, "stock": 14, "cost_price": 5, "selling_price": 10}
+      },
+      "groceries": {
+        "rice": {"initial_stock": 218, "stock": 8, "cost_price": 30, "selling_price": 50},
+        "wheat": {"initial_stock": 139, "stock": 21, "cost_price": 25, "selling_price": 45}
+      },
+      "vegetables": {
+        "carrot": {"initial_stock": 86, "stock": 4, "cost_price": 10, "selling_price": 20},
+        "potato": {"initial_stock": 97, "stock": 27, "cost_price": 12, "selling_price": 25}
+      },
+      "dairy": {
+        "milk": {"initial_stock": 61, "stock": 6, "cost_price": 20, "selling_price": 30},
+        "cheese": {"initial_stock": 29, "stock": 14, "cost_price": 50, "selling_price": 80}
+      }
+    }
+  ]
+}
